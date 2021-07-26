@@ -32,11 +32,11 @@ main branch will keep up with phoenix/master
 
 ### use default app
 
-	created by installer of ``phoenix/master` ([installer](https://github.com/phoenixframework/phoenix/tree/master/installer))
+created by installer of `phoenix/master` [installer](https://github.com/phoenixframework/phoenix/tree/master/installer)
 
-	support esbuild, alpine.js, tailwindcss, fontawesome, sqlite3
+support esbuild, alpine.js, tailwindcss, fontawesome, sqlite3
 
-	 npm i -prefix assets
+	 yarn --cwd assets (OR npm i --prefix assets)
 
 ### use installer from other branch
 
