@@ -1,0 +1,14 @@
+/*importing font awesome */
+/* $fa-font-path: "../node_modules/@fortawesome/fontawesome-free/webfonts"; */
+
+/* priv/static/assets/webfonts */
+$fa-font-path: "./webfonts";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
+
+/*
+@import "./fontawesome/scss/fontawesome.scss";
+@import "./fontawesome/scss/solid.scss";
+@import "./fontawesome/scss/brands.scss";
+*/
