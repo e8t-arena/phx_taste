@@ -1,12 +1,12 @@
 ## Setup
 
-0. choose a branch
+### choose a branch
 
-	main branch will keep up with phoenix/master
+main branch will keep up with phoenix/master
 
 	git submodule update --init --recursive
 
-1. config elixir version (via asdf)
+### config elixir version (via asdf)
 
 	asdf plugin add erlang
 
@@ -24,7 +24,7 @@
 
 	asdf local elixir $ELIXIR_VERSION
 
-2. config mix archive path to ./archives
+### config mix archive path to ./archives
 
 	. ./export_mix_archives
 
@@ -55,11 +55,11 @@
 
 add in deps
 
-  {:esbuild, "~> 0.1", runtime: Mix.env() == :dev},
+  	{:esbuild, "~> 0.1", runtime: Mix.env() == :dev},
 
 	# {:phoenix, github: "phoenixframework/phoenix", override: true},
 
-  {:phoenix, path: "../phoenix", override: true},
+  	{:phoenix, path: "../phoenix", override: true},
 
 	mix deps.get
 
